@@ -1,0 +1,39 @@
+#' Title specify_weight
+#'
+#' @param ncov A numeric value specifies number of weights need to be entered
+#' @param col_names A vector of column names specifies covariates
+#'
+#' @return list
+#' @export
+#'
+#' @examples
+#' attach(exampleData)
+#' weights = specify_weight(ncov = 2, col_names = var)
+#' weights
+#' @author Shubhram Pandey \email{shubhram1992@@gmail.com}
+#'
+specify_weight <- function(ncov, col_names = NULL) {
+  if (!is.numeric(ncov) || ncov <= 0) {
+    stop("Please specify a positive numeric value for ncov")
+  }
+
+  if (!is.null(col_names) && length(col_names) != ncov) {
+    stop("Length of col_names must be equal to ncov")
+  }
+
+  x <- vector("list", ncov)
+
+  for (i in 1:ncov) {
+    var_name <- if (!is.null(col_names)) col_names[i] else paste0("covariate ", i)
+    weight <- as.numeric(readline(paste0("Enter weight for ", var_name, ":")))
+
+    if (is.na(weight) || weight <= 0) {
+      stop("Weight must be a positive number.")
+    }
+
+    x[[i]] <- weight
+  }
+
+  return(x)
+}
+

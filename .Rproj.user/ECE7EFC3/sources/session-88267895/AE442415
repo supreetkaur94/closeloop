@@ -1,0 +1,27 @@
+{
+    "id": "AE442415",
+    "path": "~/GitHub/closeloop/R/specify_weight.R",
+    "project_path": "R/specify_weight.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1720428709152.0,
+    "source_on_save": false,
+    "relative_order": 6,
+    "properties": {
+        "tempName": "Untitled2",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "11,10",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1720428553,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1720428553,
+    "read_only": false,
+    "read_only_alternatives": []
+}

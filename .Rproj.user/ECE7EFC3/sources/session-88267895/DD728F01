@@ -1,0 +1,27 @@
+{
+    "id": "DD728F01",
+    "path": "~/GitHub/closeloop/R/calc_dist.R",
+    "project_path": "R/calc_dist.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1720431392350.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "19,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1720428754,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1720428754,
+    "read_only": false,
+    "read_only_alternatives": []
+}
