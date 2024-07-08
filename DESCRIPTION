@@ -1,0 +1,26 @@
+Package: closeloop
+Type: Package
+Title: Integrate Single-Arm Observational Data and Bridge Gaps in Disconnected Evidence Networks
+Version: 0.1.0
+Date: 2024-08-07
+Authors@R: c(person(given = "Supreet", 
+                  family ="Kaur", 
+                  email = "supreet.kaur@heorlytics.com",
+                  role = c("aut", "cre")),
+  person(given = "Shubhram", 
+                  family ="Pandey", 
+                  email = "shubhram1992@gmail.com",
+                  role = c("ctb")))
+Maintainer: Shubhram Pandey <shubhram1992@gmail.com>
+Description: Calculate distance between single-arm observational studies by using covariate information to remove heterogeneity in Network Meta-Analysis (NMA).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: combinat
+RoxygenNote: 7.3.1
+Depends: 
+    R (>= 3.5.0)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
