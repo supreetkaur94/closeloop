@@ -1,6 +1,6 @@
 Package: closeloop
 Type: Package
-Title: Integrate Single-Arm Observational Data and Bridge Gaps in Disconnected Evidence Networks
+Title: Integrate Single-Arm Observational Data in Network Meta Analysis
 Version: 0.1.0
 Date: 2024-08-07
 Authors@R: c(
@@ -17,7 +17,7 @@ Authors@R: c(
                   email = "shubhram1992@gmail.com",
                   role = c("aut", "cre")))
 Maintainer: Shubhram Pandey <shubhram1992@gmail.com>
-Description: Calculate distance between single-arm observational studies by using co-variates information to remove heterogeneity in Network Meta-Analysis.
+Description: This package Calculates distance between single-arm observational studies by using co-variates information to remove heterogeneity in Network Meta-Analysis in Randomized clinical trials.  This package will facilitate the inclusion of observational data in Network Meta ANalysis, thereby enhancing the comprehensiveness and robustness of comparative effectiveness research.The proposed R package will provide researchers with a powerful tool to systematically adjust for heterogeneity in single-arm observational studies, enabling their integration into NMAs. This will improve the accuracy and reliability of comparative effectiveness research, ultimately informing better healthcare decisions. Schmitz S et. al. The use of single armed observational data to closing the gap in otherwise disconnected evidence networks: a network meta-analysis in multiple myeloma. BMC Med Res Methodol. 2018 Jun 28;18(1):66. doi: 10.1186/s12874-018-0509-7. PMID: 29954322; PMCID: PMC6022299.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
